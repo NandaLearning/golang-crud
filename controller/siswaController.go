@@ -9,7 +9,7 @@ import (
 )
 
 func GetSiswa(router *gin.Context) {
-	var siswa []models.Siswa
+	var siswa models.Siswa
 
 	db := config.GetDB()
 
